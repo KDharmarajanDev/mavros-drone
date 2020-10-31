@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target offb_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/offb_node.dir/src/offb_node.cpp.o[0m
+[01m[K/home/karthikdharmarajan/catkin_ws/src/test/src/offb_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/offb_node.dir/build.make:62: recipe for target 'CMakeFiles/offb_node.dir/src/offb_node.cpp.o' failed
+make[2]: *** [CMakeFiles/offb_node.dir/src/offb_node.cpp.o] Error 1
+CMakeFiles/Makefile2:2057: recipe for target 'CMakeFiles/offb_node.dir/all' failed
+make[1]: *** [CMakeFiles/offb_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

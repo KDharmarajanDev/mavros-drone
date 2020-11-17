@@ -1,0 +1,54 @@
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:31:79:[m[K [01;31m[Kerror: [m[K‘[01m[KCommandTOL[m[K’ is not a member of ‘[01m[Kmavros_msgs[m[K’
+     ros::ServiceClient takeoff_command_client = nh.serviceClient<mavros_msgs::[01;31m[KCommandTOL[m[K>
+                                                                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:31:79:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KCommandBool[m[K’
+     ros::ServiceClient takeoff_command_client = nh.serviceClient<mavros_msgs::[01;36m[KCommandTOL[m[K>
+                                                                               [01;36m[K^~~~~~~~~~[m[K
+                                                                               [32m[KCommandBool[m[K
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:31:79:[m[K [01;31m[Kerror: [m[K‘[01m[KCommandTOL[m[K’ is not a member of ‘[01m[Kmavros_msgs[m[K’
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:31:79:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KCommandBool[m[K’
+     ros::ServiceClient takeoff_command_client = nh.serviceClient<mavros_msgs::[01;36m[KCommandTOL[m[K>
+                                                                               [01;36m[K^~~~~~~~~~[m[K
+                                                                               [32m[KCommandBool[m[K
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:32:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::serviceClient<<expression error> >(const char [19])[m[K’
+      ("mavros/cmd/takeoff"[01;31m[K)[m[K;
+                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1240:17:[m[K [01;36m[Knote: [m[Kcandidate: template<class MReq, class MRes> ros::ServiceClient ros::NodeHandle::serviceClient(const string&, bool, const M_string&)
+   ServiceClient [01;36m[KserviceClient[m[K(const std::string& service_name, bool persistent = false,
+                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1240:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:32:27:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+      ("mavros/cmd/takeoff"[01;31m[K)[m[K;
+                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1260:17:[m[K [01;36m[Knote: [m[Kcandidate: template<class Service> ros::ServiceClient ros::NodeHandle::serviceClient(const string&, bool, const M_string&)
+   ServiceClient [01;36m[KserviceClient[m[K(const std::string& service_name, bool persistent = false,
+                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1260:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:32:27:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+      ("mavros/cmd/takeoff"[01;31m[K)[m[K;
+                           [01;31m[K^[m[K
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:75:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCommandTOL[m[K’ is not a member of ‘[01m[Kmavros_msgs[m[K’
+     mavros_msgs::[01;31m[KCommandTOL[m[K takeoff_command;
+                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:75:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KCommandBool[m[K’
+     mavros_msgs::[01;36m[KCommandTOL[m[K takeoff_command;
+                  [01;36m[K^~~~~~~~~~[m[K
+                  [32m[KCommandBool[m[K
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:76:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktakeoff_command[m[K’ was not declared in this scope
+     [01;31m[Ktakeoff_command[m[K.request.altitude = 2;
+     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:76:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktakeoff_command_client[m[K’
+     [01;36m[Ktakeoff_command[m[K.request.altitude = 2;
+     [01;36m[K^~~~~~~~~~~~~~~[m[K
+     [32m[Ktakeoff_command_client[m[K
+[01m[K/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/src/offb_node.cpp:88:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+  [01;31m[Ktheta[m[K = wn*count*0.05;
+  [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/offb_node.dir/src/offb_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/offb_node.dir/all] Error 2
+make: *** [all] Error 2

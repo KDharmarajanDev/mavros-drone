@@ -1,0 +1,8 @@
+prefix=/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/test/cmake-build-debug/devel
+
+Name: test
+Description: Description of test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

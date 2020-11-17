@@ -1,0 +1,8 @@
+prefix=/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel
+exec_prefix=/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel
+includedir=${prefix}/include
+
+Name: mavlink
+Description: MAVLink micro air vehicle marshalling / communication library
+Version: 2020.10.11
+Cflags: -I${includedir}

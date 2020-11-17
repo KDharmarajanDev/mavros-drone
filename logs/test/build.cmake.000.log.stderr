@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/karthikdharmarajan/catkin_ws/src/test/CMakeLists.txt:69:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+

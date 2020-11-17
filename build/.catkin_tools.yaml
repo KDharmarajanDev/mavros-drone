@@ -1,0 +1,6 @@
+devel_space: /home/karthikdharmarajan/Documents/Power_Line_Inspection/devel
+install: false
+install_space: /home/karthikdharmarajan/Documents/Power_Line_Inspection/install
+profile: default
+source_space: /home/karthikdharmarajan/Documents/Power_Line_Inspection/src
+workspace: /home/karthikdharmarajan/Documents/Power_Line_Inspection

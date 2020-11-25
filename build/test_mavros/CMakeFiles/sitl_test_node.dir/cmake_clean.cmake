@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sitl_test_node.dir/sitl_test/sitl_test_node.cpp.o"
-  "/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test_mavros/lib/test_mavros/sitl_test_node.pdb"
-  "/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test_mavros/lib/test_mavros/sitl_test_node"
+  "/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/lib/test_mavros/sitl_test_node.pdb"
+  "/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/lib/test_mavros/sitl_test_node"
 )
 
 # Per-language clean rules from dependency scanning.

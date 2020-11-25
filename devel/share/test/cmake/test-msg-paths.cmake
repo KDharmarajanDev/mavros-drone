@@ -1,1 +1,0 @@
-/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test/share/test/cmake/test-msg-paths.cmake

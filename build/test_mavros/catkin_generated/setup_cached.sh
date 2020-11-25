@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test_mavros:$CMAKE_PREFIX_PATH"
-export PWD='/home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test_mavros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/test_mavros:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros:$CMAKE_PREFIX_PATH"
+export PWD='/home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/test_mavros:$ROS_PACKAGE_PATH"

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/mavros
+CMAKE_SOURCE_DIR = /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/mavros
+CMAKE_BINARY_DIR = /home/karthikdharmarajan/Documents/ISAACS_Drone/build/mavros
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/mavros/CMakeFiles /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/mavros/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karthikdharmarajan/Documents/ISAACS_Drone/build/mavros/CMakeFiles /home/karthikdharmarajan/Documents/ISAACS_Drone/build/mavros/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/mavros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karthikdharmarajan/Documents/ISAACS_Drone/build/mavros/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

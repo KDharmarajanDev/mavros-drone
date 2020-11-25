@@ -1,6 +1,6 @@
-devel_space: /home/karthikdharmarajan/Documents/Power_Line_Inspection/devel
+devel_space: /home/karthikdharmarajan/Documents/ISAACS_Drone/devel
 install: false
-install_space: /home/karthikdharmarajan/Documents/Power_Line_Inspection/install
+install_space: /home/karthikdharmarajan/Documents/ISAACS_Drone/install
 profile: default
-source_space: /home/karthikdharmarajan/Documents/Power_Line_Inspection/src
-workspace: /home/karthikdharmarajan/Documents/Power_Line_Inspection
+source_space: /home/karthikdharmarajan/Documents/ISAACS_Drone/src
+workspace: /home/karthikdharmarajan/Documents/ISAACS_Drone

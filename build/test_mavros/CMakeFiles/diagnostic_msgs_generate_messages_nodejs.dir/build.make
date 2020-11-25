@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/test_mavros
+CMAKE_SOURCE_DIR = /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/test_mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros
+CMAKE_BINARY_DIR = /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros
 
 # Utility rule file for diagnostic_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/test_mavros /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/test_mavros /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/test_mavros /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/test_mavros /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/depend
 

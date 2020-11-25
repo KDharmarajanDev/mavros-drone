@@ -67,14 +67,14 @@ set(mavros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mavros_SOURCE_PREFIX /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/mavros)
-  set(mavros_DEVEL_PREFIX /home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/mavros)
+  set(mavros_SOURCE_PREFIX /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/mavros)
+  set(mavros_DEVEL_PREFIX /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros)
   set(mavros_INSTALL_PREFIX "")
   set(mavros_PREFIX ${mavros_DEVEL_PREFIX})
 else()
   set(mavros_SOURCE_PREFIX "")
   set(mavros_DEVEL_PREFIX "")
-  set(mavros_INSTALL_PREFIX /home/karthikdharmarajan/Documents/Power_Line_Inspection/install)
+  set(mavros_INSTALL_PREFIX /home/karthikdharmarajan/Documents/ISAACS_Drone/install)
   set(mavros_PREFIX ${mavros_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/karthikdharmarajan/Documents/Power_Line_Inspection/install/lib;/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/karthikdharmarajan/Documents/ISAACS_Drone/install/lib;/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

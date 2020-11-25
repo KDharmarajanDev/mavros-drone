@@ -21,7 +21,7 @@ set(mavlink2_DIALECTS ASLUAV;all;ardupilotmega;autoquad;common;icarous;matrixpil
 foreach(lib )
   set(onelib "${lib}-NOTFOUND")
   find_library(onelib ${lib}
-      PATHS "/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/lib"
+      PATHS "/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib"
     NO_DEFAULT_PATH
     )
   if(NOT onelib)

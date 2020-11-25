@@ -1,4 +1,4 @@
-prefix=/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/mavros_extras
+prefix=/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros_extras
 
 Name: mavros_extras
 Description: Description of mavros_extras

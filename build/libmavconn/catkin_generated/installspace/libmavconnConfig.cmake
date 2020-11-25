@@ -67,14 +67,14 @@ set(libmavconn_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(libmavconn_SOURCE_PREFIX /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/libmavconn)
-  set(libmavconn_DEVEL_PREFIX /home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/libmavconn)
+  set(libmavconn_SOURCE_PREFIX /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/libmavconn)
+  set(libmavconn_DEVEL_PREFIX /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/libmavconn)
   set(libmavconn_INSTALL_PREFIX "")
   set(libmavconn_PREFIX ${libmavconn_DEVEL_PREFIX})
 else()
   set(libmavconn_SOURCE_PREFIX "")
   set(libmavconn_DEVEL_PREFIX "")
-  set(libmavconn_INSTALL_PREFIX /home/karthikdharmarajan/Documents/Power_Line_Inspection/install)
+  set(libmavconn_INSTALL_PREFIX /home/karthikdharmarajan/Documents/ISAACS_Drone/install)
   set(libmavconn_PREFIX ${libmavconn_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(libmavconn_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;/usr/include;/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/include " STREQUAL " ")
+if(NOT "include;/usr/include;/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/include " STREQUAL " ")
   set(libmavconn_INCLUDE_DIRS "")
-  set(_include_dirs "include;/usr/include;/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/include")
+  set(_include_dirs "include;/usr/include;/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/include")
   if(NOT "https://github.com/mavlink/mavros/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/mavlink/mavros/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/mavros " STREQUAL " ")
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/karthikdharmarajan/Documents/Power_Line_Inspection/install/lib;/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/karthikdharmarajan/Documents/ISAACS_Drone/install/lib;/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

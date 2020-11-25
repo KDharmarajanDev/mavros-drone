@@ -23,8 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o"
   "CMakeFiles/mavros_extras.dir/src/plugins/wheel_odometry.cpp.o"
   "CMakeFiles/mavros_extras.dir/src/plugins/mount_control.cpp.o"
-  "/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/mavros_extras/lib/libmavros_extras.pdb"
-  "/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/mavros_extras/lib/libmavros_extras.so"
+  "/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros_extras/lib/libmavros_extras.pdb"
+  "/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros_extras/lib/libmavros_extras.so"
 )
 
 # Per-language clean rules from dependency scanning.

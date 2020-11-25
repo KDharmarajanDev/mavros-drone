@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o"
   "CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o"
-  "/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test_mavros/lib/libmavros_sitl_test.pdb"
-  "/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test_mavros/lib/libmavros_sitl_test.so"
+  "/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/lib/libmavros_sitl_test.pdb"
+  "/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/lib/libmavros_sitl_test.so"
 )
 
 # Per-language clean rules from dependency scanning.

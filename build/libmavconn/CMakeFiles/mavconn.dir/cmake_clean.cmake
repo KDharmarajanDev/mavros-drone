@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mavconn.dir/src/serial.cpp.o"
   "CMakeFiles/mavconn.dir/src/tcp.cpp.o"
   "CMakeFiles/mavconn.dir/src/udp.cpp.o"
-  "/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/libmavconn/lib/libmavconn.pdb"
-  "/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/libmavconn/lib/libmavconn.so"
+  "/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/libmavconn/lib/libmavconn.pdb"
+  "/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/libmavconn/lib/libmavconn.so"
 )
 
 # Per-language clean rules from dependency scanning.

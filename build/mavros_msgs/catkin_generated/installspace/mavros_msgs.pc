@@ -1,4 +1,4 @@
-prefix=/home/karthikdharmarajan/Documents/Power_Line_Inspection/install
+prefix=/home/karthikdharmarajan/Documents/ISAACS_Drone/install
 
 Name: mavros_msgs
 Description: Description of mavros_msgs

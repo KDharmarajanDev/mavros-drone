@@ -1,5 +1,5 @@
-prefix=/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel
-exec_prefix=/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel
+prefix=/home/karthikdharmarajan/Documents/ISAACS_Drone/devel
+exec_prefix=/home/karthikdharmarajan/Documents/ISAACS_Drone/devel
 includedir=${prefix}/include
 
 Name: mavlink

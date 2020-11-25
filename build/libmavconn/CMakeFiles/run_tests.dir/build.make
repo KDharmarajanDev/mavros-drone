@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/libmavconn
+CMAKE_SOURCE_DIR = /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/libmavconn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/libmavconn
+CMAKE_BINARY_DIR = /home/karthikdharmarajan/Documents/ISAACS_Drone/build/libmavconn
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/libmavconn /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/libmavconn /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/libmavconn /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/libmavconn /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/libmavconn/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karthikdharmarajan/Documents/ISAACS_Drone/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/libmavconn /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/libmavconn /home/karthikdharmarajan/Documents/ISAACS_Drone/build/libmavconn /home/karthikdharmarajan/Documents/ISAACS_Drone/build/libmavconn /home/karthikdharmarajan/Documents/ISAACS_Drone/build/libmavconn/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

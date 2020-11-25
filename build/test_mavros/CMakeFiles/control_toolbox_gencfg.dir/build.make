@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/test_mavros
+CMAKE_SOURCE_DIR = /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/test_mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros
+CMAKE_BINARY_DIR = /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros
 
 # Utility rule file for control_toolbox_gencfg.
 
@@ -67,6 +67,6 @@ CMakeFiles/control_toolbox_gencfg.dir/clean:
 .PHONY : CMakeFiles/control_toolbox_gencfg.dir/clean
 
 CMakeFiles/control_toolbox_gencfg.dir/depend:
-	cd /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/test_mavros /home/karthikdharmarajan/Documents/Power_Line_Inspection/src/mavros/test_mavros /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros /home/karthikdharmarajan/Documents/Power_Line_Inspection/build/test_mavros/CMakeFiles/control_toolbox_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/test_mavros /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavros/test_mavros /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros /home/karthikdharmarajan/Documents/ISAACS_Drone/build/test_mavros/CMakeFiles/control_toolbox_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/control_toolbox_gencfg.dir/depend
 

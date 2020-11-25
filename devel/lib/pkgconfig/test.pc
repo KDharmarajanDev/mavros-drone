@@ -1,1 +1,1 @@
-/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test/lib/pkgconfig/test.pc
+/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test/lib/pkgconfig/test.pc

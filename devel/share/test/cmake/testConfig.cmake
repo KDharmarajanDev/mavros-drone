@@ -1,1 +1,1 @@
-/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test/share/test/cmake/testConfig.cmake
+/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test/share/test/cmake/testConfig.cmake

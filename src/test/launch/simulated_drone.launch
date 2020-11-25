@@ -1,7 +1,7 @@
 <launch>
     <!-- launches rosbridge_server node -->
     <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" >
-        <arg name="port" value="8080"/>
+        <arg name="port" value="9090"/>
     </include>
 
 	<arg name="fcu_url" default="udp://127.0.0.1:14551@14555" />
@@ -24,7 +24,4 @@
 		<arg name="fcu_protocol" value="$(arg fcu_protocol)" />
 		<arg name="respawn_mavros" value="$(arg respawn_mavros)" />
 	</include>
-	<!-- launches test node -->
-	<node pkg="test" type="offb_node" name="test" output="screen"/>
-
 </launch>

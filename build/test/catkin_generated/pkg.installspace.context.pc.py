@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "test"
-PROJECT_SPACE_DIR = "/home/karthikdharmarajan/Documents/Power_Line_Inspection/install"
+PROJECT_SPACE_DIR = "/home/karthikdharmarajan/Documents/ISAACS_Drone/install"
 PROJECT_VERSION = "0.0.0"

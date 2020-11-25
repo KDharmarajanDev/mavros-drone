@@ -1,4 +1,4 @@
-prefix=/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/.private/test_mavros
+prefix=/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros
 
 Name: test_mavros
 Description: Description of test_mavros

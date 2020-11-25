@@ -1,3 +1,7 @@
 <launch>
+<<<<<<< HEAD
+        <node pkg="test" type="offb_node" name="test" output="screen"/>
+=======
         <node pkg="test" type="offb_node" name="test"/>
+>>>>>>> origin/main
 </launch>

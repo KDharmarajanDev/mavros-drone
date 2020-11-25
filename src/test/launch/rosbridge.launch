@@ -1,0 +1,10 @@
+<launch>
+  <include ns="bridge0" file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+    <!-- use default port -->
+    <arg name="port" value="9090" />
+  </include>
+  <include ns="bridge1" file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+    <!-- use other port -->
+    <arg name="port" value="9091" />
+  </include>
+</launch>

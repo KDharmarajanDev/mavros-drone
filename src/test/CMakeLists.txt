@@ -64,12 +64,21 @@ find_package(catkin REQUIRED COMPONENTS roscpp mavros rospy std_msgs geometry_ms
 # )
 
 ## Generate added messages and services with any dependencies listed here
+<<<<<<< HEAD
+# generate_messages(
+#   DEPENDENCIES
+#   std_msgs  # Or other packages containing msgs
+#   geometry_msgs
+#   mavros_msgs
+# )
+=======
  generate_messages(
    DEPENDENCIES
    std_msgs  # Or other packages containing msgs
    geometry_msgs
    mavros_msgs
  )
+>>>>>>> origin/main
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##

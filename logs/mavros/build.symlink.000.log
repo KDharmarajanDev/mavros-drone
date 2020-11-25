@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/mavros/cmake/mavrosConfig-version.cmake
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/mavros/cmake/mavrosConfig.cmake
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/libmavros.so
@@ -6,3 +7,13 @@ Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/python2.7/d
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/pkgconfig/mavros.pc
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/mavros/mavros_node
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/mavros/gcs_bridge
+=======
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/share/mavros/cmake/mavrosConfig-version.cmake
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/share/mavros/cmake/mavrosConfig.cmake
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/libmavros.so
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/libmavros_plugins.so
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/python2.7/dist-packages/mavros/__init__.py
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/pkgconfig/mavros.pc
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/mavros/mavros_node
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/mavros/gcs_bridge
+>>>>>>> origin/main

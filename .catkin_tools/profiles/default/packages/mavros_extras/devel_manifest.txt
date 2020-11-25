@@ -1,4 +1,5 @@
 mavros/mavros_extras
+<<<<<<< HEAD
 /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros_extras/cmake.lock /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/./cmake.lock
 /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
 /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
@@ -6,3 +7,12 @@ mavros/mavros_extras
 /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros_extras/lib/pkgconfig/mavros_extras.pc /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/pkgconfig/mavros_extras.pc
 /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/mavros_extras/servo_state_publisher
 /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/mavros_extras/lib/mavros_extras/visualization /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/mavros_extras/visualization
+=======
+/home/karthikdharmarajan/catkin_ws/devel/.private/mavros_extras/cmake.lock /home/karthikdharmarajan/catkin_ws/devel/./cmake.lock
+/home/karthikdharmarajan/catkin_ws/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake /home/karthikdharmarajan/catkin_ws/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+/home/karthikdharmarajan/catkin_ws/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake /home/karthikdharmarajan/catkin_ws/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+/home/karthikdharmarajan/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so /home/karthikdharmarajan/catkin_ws/devel/lib/libmavros_extras.so
+/home/karthikdharmarajan/catkin_ws/devel/.private/mavros_extras/lib/pkgconfig/mavros_extras.pc /home/karthikdharmarajan/catkin_ws/devel/lib/pkgconfig/mavros_extras.pc
+/home/karthikdharmarajan/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher /home/karthikdharmarajan/catkin_ws/devel/lib/mavros_extras/servo_state_publisher
+/home/karthikdharmarajan/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/visualization /home/karthikdharmarajan/catkin_ws/devel/lib/mavros_extras/visualization
+>>>>>>> origin/main

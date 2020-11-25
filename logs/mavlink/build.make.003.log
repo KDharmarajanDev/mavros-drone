@@ -5,8 +5,13 @@
 [ 22%] Built target ASLUAV.xml-v1.0
 [ 27%] Built target ualberta.xml-v2.0
 [ 31%] Built target standard.xml-v2.0
+<<<<<<< HEAD
 [ 36%] Built target common.xml-v1.0
 [ 40%] Built target ardupilotmega.xml-v1.0
+=======
+[ 36%] Built target ardupilotmega.xml-v1.0
+[ 40%] Built target common.xml-v1.0
+>>>>>>> origin/main
 [ 45%] Built target matrixpilot.xml-v1.0
 [ 50%] Built target autoquad.xml-v1.0
 [ 54%] Built target uAvionix.xml-v1.0

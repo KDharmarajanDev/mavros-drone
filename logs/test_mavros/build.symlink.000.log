@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/libmavros_sitl_test.so
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/pkgconfig/test_mavros.pc
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/test_mavros/sitl_test_node
+=======
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/libmavros_sitl_test.so
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/pkgconfig/test_mavros.pc
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/test_mavros/sitl_test_node
+>>>>>>> origin/main

@@ -1,11 +1,20 @@
 [35m[1mScanning dependencies of target paparazzi.xml-v2.0[0m
 [  4%] [34m[1mGenerating paparazzi-v2.0-cxx-stamp[0m
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/paparazzi.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/paparazzi.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Merged enum MAV_CMD
 Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
 Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
@@ -28,12 +37,21 @@ Copying fixed C++ headers for protocol 2.0 to include/v2.0
 [  4%] Built target paparazzi.xml-v2.0
 [35m[1mScanning dependencies of target matrixpilot.xml-v2.0[0m
 [  9%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/matrixpilot.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/matrixpilot.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
@@ -57,8 +75,13 @@ Copying fixed C++ headers for protocol 2.0 to include/v2.0
 [  9%] Built target matrixpilot.xml-v2.0
 [35m[1mScanning dependencies of target icarous.xml-v2.0[0m
 [ 13%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/icarous.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/icarous.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+>>>>>>> origin/main
 Found 2 MAVLink message types in 1 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/icarous
@@ -66,17 +89,25 @@ Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/icarous
 Copying fixed C++ headers for protocol 2.0 to include/v2.0
 [ 13%] Built target icarous.xml-v2.0
+<<<<<<< HEAD
 [35m[1mScanning dependencies of target ASLUAV.xml-v1.0[0m
 [35m[1mScanning dependencies of target icarous.xml-v1.0[0m
 [ 18%] [34m[1mGenerating include/v1.0/ASLUAV/ASLUAV.h[0m
 [ 22%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/icarous.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/icarous.xml
+=======
+[35m[1mScanning dependencies of target icarous.xml-v1.0[0m
+[ 18%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message ICAROUS_HEARTBEAT
 Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
 Found 0 MAVLink message types in 1 XML files
 Generating C implementation in directory include/v1.0/icarous
 Copying fixed headers for protocol 1.0 to include/v1.0
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/ASLUAV.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/ASLUAV.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
@@ -84,6 +115,15 @@ Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_defi
 [ 22%] Built target icarous.xml-v1.0
 [35m[1mScanning dependencies of target ualberta.xml-v2.0[0m
 [ 27%] [34m[1mGenerating ualberta-v2.0-cxx-stamp[0m
+=======
+[ 18%] Built target icarous.xml-v1.0
+[35m[1mScanning dependencies of target ASLUAV.xml-v1.0[0m
+[ 22%] [34m[1mGenerating include/v1.0/ASLUAV/ASLUAV.h[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PLAY_TUNE
@@ -154,8 +194,13 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message PROTOCOL_VERSION
 Merged enum MAV_CMD
 Merged enum MAV_CMD
@@ -170,6 +215,7 @@ Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
 Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
 Found 159 MAVLink message types in 3 XML files
 Generating C implementation in directory include/v1.0/ASLUAV
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/ualberta.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/ualberta.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
@@ -177,6 +223,20 @@ Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_defi
 Generating C implementation in directory include/v1.0/common
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 22%] Built target ASLUAV.xml-v1.0
+[35m[1mScanning dependencies of target ualberta.xml-v2.0[0m
+[ 27%] [34m[1mGenerating ualberta-v2.0-cxx-stamp[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Merged enum MAV_CMD
 Note: An enum value was auto-generated: MODE_MANUAL_DIRECT = 1
 Note: An enum value was auto-generated: MODE_MANUAL_SCALED = 2
@@ -202,6 +262,7 @@ Found 218 MAVLink message types in 3 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/ualberta
 Generating C implementation in directory include/v2.0/common
+<<<<<<< HEAD
 Generating C implementation in directory include/v1.0/minimal
 Copying fixed headers for protocol 1.0 to include/v1.0
 [ 27%] Built target ASLUAV.xml-v1.0
@@ -213,6 +274,23 @@ Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_d
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ualberta
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 27%] Built target ualberta.xml-v2.0
+[35m[1mScanning dependencies of target standard.xml-v2.0[0m
+[ 31%] [34m[1mGenerating standard-v2.0-cxx-stamp[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Merged enum MAV_CMD
 Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
 Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
@@ -228,6 +306,7 @@ Generating C implementation in directory include/v2.0/standard
 Generating C implementation in directory include/v2.0/common
 Generating C implementation in directory include/v2.0/minimal
 Copying fixed headers for protocol 2.0 to include/v2.0
+<<<<<<< HEAD
 Generating C++ implementation in directory include/v2.0/ualberta
 Generating C++ implementation in directory include/v2.0/common
 Generating C++ implementation in directory include/v2.0/minimal
@@ -237,6 +316,17 @@ Copying fixed C++ headers for protocol 2.0 to include/v2.0
 [ 36%] [34m[1mGenerating include/v1.0/ardupilotmega/ardupilotmega.h[0m
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+=======
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 31%] Built target standard.xml-v2.0
+[35m[1mScanning dependencies of target ardupilotmega.xml-v1.0[0m
+[ 36%] [34m[1mGenerating include/v1.0/ardupilotmega/ardupilotmega.h[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message DEVICE_OP_READ
 Ignoring MAVLink2 message DEVICE_OP_READ_REPLY
 Ignoring MAVLink2 message DEVICE_OP_WRITE
@@ -251,9 +341,14 @@ Ignoring MAVLink2 message OSD_PARAM_CONFIG
 Ignoring MAVLink2 message OSD_PARAM_CONFIG_REPLY
 Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG
 Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG_REPLY
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Generating C implementation in directory include/v2.0/minimal
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PLAY_TUNE
@@ -324,6 +419,7 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+<<<<<<< HEAD
 Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/standard
 Generating C++ implementation in directory include/v2.0/common
@@ -338,6 +434,19 @@ Ignoring MAVLink2 message ICAROUS_HEARTBEAT
 Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
+Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Ignoring MAVLink2 message ICAROUS_HEARTBEAT
+Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message PROTOCOL_VERSION
 Merged enum MAV_CMD
 Merged enum MAV_CMD
@@ -352,6 +461,7 @@ Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
 Found 192 MAVLink message types in 5 XML files
 Generating C implementation in directory include/v1.0/ardupilotmega
 Generating C implementation in directory include/v1.0/common
+<<<<<<< HEAD
 Generating C++ implementation in directory include/v2.0/minimal
 Copying fixed C++ headers for protocol 2.0 to include/v2.0
 [ 36%] Built target standard.xml-v2.0
@@ -363,12 +473,26 @@ Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_d
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/matrixpilot.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
+=======
+>>>>>>> origin/main
 Generating C implementation in directory include/v1.0/uAvionix
 Generating C implementation in directory include/v1.0/icarous
 Generating C implementation in directory include/v1.0/minimal
 Copying fixed headers for protocol 1.0 to include/v1.0
+<<<<<<< HEAD
 [ 45%] Built target ardupilotmega.xml-v1.0
 [35m[1mScanning dependencies of target autoquad.xml-v1.0[0m
+=======
+[ 36%] Built target ardupilotmega.xml-v1.0
+[35m[1mScanning dependencies of target common.xml-v1.0[0m
+[ 40%] Built target common.xml-v1.0
+[35m[1mScanning dependencies of target matrixpilot.xml-v1.0[0m
+[ 45%] [34m[1mGenerating include/v1.0/matrixpilot/matrixpilot.h[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PLAY_TUNE
@@ -439,9 +563,14 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+<<<<<<< HEAD
 [ 50%] [34m[1mGenerating include/v1.0/autoquad/autoquad.h[0m
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message PROTOCOL_VERSION
 Merged enum MAV_CMD
 Merged enum MAV_CMD
@@ -455,11 +584,24 @@ Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
 Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
 Found 171 MAVLink message types in 3 XML files
 Generating C implementation in directory include/v1.0/matrixpilot
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/autoquad.xml
 Generating C implementation in directory include/v1.0/common
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/autoquad.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
+=======
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 45%] Built target matrixpilot.xml-v1.0
+[35m[1mScanning dependencies of target autoquad.xml-v1.0[0m
+[ 50%] [34m[1mGenerating include/v1.0/autoquad/autoquad.h[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/autoquad.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/autoquad.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PLAY_TUNE
@@ -530,8 +672,13 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message PROTOCOL_VERSION
 Merged enum MAV_CMD
 Merged enum MAV_DATA_STREAM
@@ -551,11 +698,16 @@ Generating C implementation in directory include/v1.0/autoquad
 Generating C implementation in directory include/v1.0/common
 Generating C implementation in directory include/v1.0/minimal
 Copying fixed headers for protocol 1.0 to include/v1.0
+<<<<<<< HEAD
 [ 50%] Built target matrixpilot.xml-v1.0
+=======
+[ 50%] Built target autoquad.xml-v1.0
+>>>>>>> origin/main
 [35m[1mScanning dependencies of target uAvionix.xml-v1.0[0m
 [ 54%] Built target uAvionix.xml-v1.0
 [35m[1mScanning dependencies of target uAvionix.xml-v2.0[0m
 [ 59%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
+<<<<<<< HEAD
 Generating C implementation in directory include/v1.0/minimal
 Copying fixed headers for protocol 1.0 to include/v1.0
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/uAvionix.xml
@@ -572,6 +724,40 @@ Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_defi
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Merged enum MAV_CMD
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 218 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 59%] Built target uAvionix.xml-v2.0
+[35m[1mScanning dependencies of target all.xml-v1.0[0m
+[ 63%] [34m[1mGenerating include/v1.0/all/all.h[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message DEVICE_OP_READ
 Ignoring MAVLink2 message DEVICE_OP_READ_REPLY
 Ignoring MAVLink2 message DEVICE_OP_WRITE
@@ -586,6 +772,7 @@ Ignoring MAVLink2 message OSD_PARAM_CONFIG
 Ignoring MAVLink2 message OSD_PARAM_CONFIG_REPLY
 Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG
 Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG_REPLY
+<<<<<<< HEAD
 Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
 Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
 Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
@@ -600,6 +787,10 @@ Generating C implementation in directory include/v2.0/uAvionix
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Generating C implementation in directory include/v2.0/common
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PLAY_TUNE
@@ -670,6 +861,7 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/icarous.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/icarous.xml
 Ignoring MAVLink2 message ICAROUS_HEARTBEAT
@@ -685,6 +877,23 @@ Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
 Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Ignoring MAVLink2 message ICAROUS_HEARTBEAT
+Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
+Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message PROTOCOL_VERSION
 Merged enum MAV_CMD
 Merged enum MAV_CMD
@@ -712,10 +921,13 @@ Found 195 MAVLink message types in 8 XML files
 Generating C implementation in directory include/v1.0/all
 Generating C implementation in directory include/v1.0/ardupilotmega
 Generating C implementation in directory include/v1.0/common
+<<<<<<< HEAD
 Generating C implementation in directory include/v2.0/minimal
 Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/uAvionix
 Generating C++ implementation in directory include/v2.0/common
+=======
+>>>>>>> origin/main
 Generating C implementation in directory include/v1.0/icarous
 Generating C implementation in directory include/v1.0/standard
 Generating C implementation in directory include/v1.0/ualberta
@@ -723,6 +935,7 @@ Generating C implementation in directory include/v1.0/uAvionix
 Generating C implementation in directory include/v1.0/minimal
 Copying fixed headers for protocol 1.0 to include/v1.0
 [ 63%] Built target all.xml-v1.0
+<<<<<<< HEAD
 Generating C++ implementation in directory include/v2.0/minimal
 [35m[1mScanning dependencies of target all.xml-v2.0[0m
 Copying fixed C++ headers for protocol 2.0 to include/v2.0
@@ -740,6 +953,75 @@ Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_defi
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
+=======
+[35m[1mScanning dependencies of target all.xml-v2.0[0m
+[ 68%] [34m[1mGenerating all-v2.0-cxx-stamp[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MODE_MANUAL_DIRECT = 1
+Note: An enum value was auto-generated: MODE_MANUAL_SCALED = 2
+Note: An enum value was auto-generated: MODE_AUTO_PID_ATT = 3
+Note: An enum value was auto-generated: MODE_AUTO_PID_VEL = 4
+Note: An enum value was auto-generated: MODE_AUTO_PID_POS = 5
+Note: An enum value was auto-generated: NAV_AHRS_INIT = 1
+Note: An enum value was auto-generated: NAV_AHRS = 2
+Note: An enum value was auto-generated: NAV_INS_GPS_INIT = 3
+Note: An enum value was auto-generated: NAV_INS_GPS = 4
+Note: An enum value was auto-generated: PILOT_MANUAL = 1
+Note: An enum value was auto-generated: PILOT_AUTO = 2
+Note: An enum value was auto-generated: PILOT_ROTO = 3
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 285 MAVLink message types in 8 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/all
+Generating C implementation in directory include/v2.0/ardupilotmega
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/icarous
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/ualberta
+Generating C implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/all
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/ualberta
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 68%] Built target all.xml-v2.0
+[35m[1mScanning dependencies of target paparazzi.xml-v1.0[0m
+[ 72%] [34m[1mGenerating include/v1.0/paparazzi/paparazzi.h[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+>>>>>>> origin/main
 Ignoring MAVLink2 message SETUP_SIGNING
 Ignoring MAVLink2 message BUTTON_CHANGE
 Ignoring MAVLink2 message PLAY_TUNE
@@ -810,6 +1092,7 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Ignoring MAVLink2 message PROTOCOL_VERSION
@@ -822,6 +1105,12 @@ Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_d
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/ualberta.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/uAvionix.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/uAvionix.xml
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+>>>>>>> origin/main
 Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
 Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
 Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
@@ -830,6 +1119,7 @@ Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
 Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
 Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
 Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Found 149 MAVLink message types in 3 XML files
 Generating C implementation in directory include/v1.0/paparazzi
@@ -862,6 +1152,11 @@ Generating C headers
 Generating C implementation in directory include/v2.0/all
 Generating C implementation in directory include/v2.0/ardupilotmega
 Generating C implementation in directory include/v2.0/common
+=======
+Found 149 MAVLink message types in 3 XML files
+Generating C implementation in directory include/v1.0/paparazzi
+Generating C implementation in directory include/v1.0/common
+>>>>>>> origin/main
 Generating C implementation in directory include/v1.0/minimal
 Copying fixed headers for protocol 1.0 to include/v1.0
 [ 72%] Built target paparazzi.xml-v1.0
@@ -869,6 +1164,7 @@ Copying fixed headers for protocol 1.0 to include/v1.0
 [ 77%] Built target standard.xml-v1.0
 [35m[1mScanning dependencies of target autoquad.xml-v2.0[0m
 [ 81%] [34m[1mGenerating autoquad-v2.0-cxx-stamp[0m
+<<<<<<< HEAD
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/autoquad.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/autoquad.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
@@ -878,12 +1174,23 @@ Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_d
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Generating C implementation in directory include/v2.0/standard
 Generating C implementation in directory include/v2.0/ualberta
+=======
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/autoquad.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/autoquad.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Merged enum MAV_CMD
 Merged enum MAV_DATA_STREAM
 Merged enum MAV_CMD
 Note: An enum value was auto-generated: AQ_MAVLINK_DEFS_VERSION_1 = 1
 Note: An enum value was auto-generated: MAV_DATA_STREAM_PROPULSION = 13
+<<<<<<< HEAD
 Generating C implementation in directory include/v2.0/uAvionix
+=======
+>>>>>>> origin/main
 Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
 Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
 Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
@@ -895,6 +1202,7 @@ Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
 Found 217 MAVLink message types in 3 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/autoquad
+<<<<<<< HEAD
 Generating C implementation in directory include/v2.0/minimal
 Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C implementation in directory include/v2.0/common
@@ -920,6 +1228,24 @@ Generating C++ implementation in directory include/v2.0/autoquad
 Generating C++ implementation in directory include/v2.0/common
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/autoquad
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 81%] Built target autoquad.xml-v2.0
+[35m[1mScanning dependencies of target ASLUAV.xml-v2.0[0m
+[ 86%] [34m[1mGenerating ASLUAV-v2.0-cxx-stamp[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Note: An enum value was auto-generated: GSM_MODEM_TYPE_HUAWEI_E3372 = 1
@@ -935,6 +1261,7 @@ Found 230 MAVLink message types in 3 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/ASLUAV
 Generating C implementation in directory include/v2.0/common
+<<<<<<< HEAD
 Generating C++ implementation in directory include/v2.0/minimal
 Copying fixed C++ headers for protocol 2.0 to include/v2.0
 [ 86%] Built target autoquad.xml-v2.0
@@ -950,6 +1277,27 @@ Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_d
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/icarous.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ASLUAV
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 86%] Built target ASLUAV.xml-v2.0
+[35m[1mScanning dependencies of target ardupilotmega.xml-v2.0[0m
+[ 90%] [34m[1mGenerating ardupilotmega-v2.0-cxx-stamp[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Merged enum MAV_CMD
 Merged enum MAV_CMD
 Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
@@ -963,6 +1311,7 @@ Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
 Found 282 MAVLink message types in 5 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/ardupilotmega
+<<<<<<< HEAD
 Generating C implementation in directory include/v2.0/minimal
 Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/ASLUAV
@@ -973,6 +1322,9 @@ Copying fixed C++ headers for protocol 2.0 to include/v2.0
 [ 90%] Built target ASLUAV.xml-v2.0
 [35m[1mScanning dependencies of target ualberta.xml-v1.0[0m
 [ 95%] Built target ualberta.xml-v1.0
+=======
+Generating C implementation in directory include/v2.0/common
+>>>>>>> origin/main
 Generating C implementation in directory include/v2.0/uAvionix
 Generating C implementation in directory include/v2.0/icarous
 Generating C implementation in directory include/v2.0/minimal
@@ -983,6 +1335,7 @@ Generating C++ implementation in directory include/v2.0/uAvionix
 Generating C++ implementation in directory include/v2.0/icarous
 Generating C++ implementation in directory include/v2.0/minimal
 Copying fixed C++ headers for protocol 2.0 to include/v2.0
+<<<<<<< HEAD
 [ 95%] Built target ardupilotmega.xml-v2.0
 [35m[1mScanning dependencies of target common.xml-v2.0[0m
 [100%] [34m[1mGenerating common-v2.0-cxx-stamp[0m
@@ -990,6 +1343,17 @@ Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_d
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/common.xml
 Validating /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
 Parsing /home/karthikdharmarajan/Documents/ISAACS_Drone/src/mavlink/message_definitions/v1.0/minimal.xml
+=======
+[ 90%] Built target ardupilotmega.xml-v2.0
+[35m[1mScanning dependencies of target ualberta.xml-v1.0[0m
+[ 95%] Built target ualberta.xml-v1.0
+[35m[1mScanning dependencies of target common.xml-v2.0[0m
+[100%] [34m[1mGenerating common-v2.0-cxx-stamp[0m
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/karthikdharmarajan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+>>>>>>> origin/main
 Merged enum MAV_CMD
 Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
 Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2

@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/libmavconn/cmake/libmavconnConfig.cmake
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/libmavconn/cmake/libmavconn-extras.cmake
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/libmavconn.so
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/pkgconfig/libmavconn.pc
+=======
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/libmavconn.so
+Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/pkgconfig/libmavconn.pc
+>>>>>>> origin/main

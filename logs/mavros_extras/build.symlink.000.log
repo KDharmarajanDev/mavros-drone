@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/libmavros_extras.so
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/pkgconfig/mavros_extras.pc
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/mavros_extras/servo_state_publisher
 Symlinking /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/mavros_extras/visualization
-=======
-Symlinking /home/karthikdharmarajan/catkin_ws/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
-Symlinking /home/karthikdharmarajan/catkin_ws/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
-Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/libmavros_extras.so
-Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/pkgconfig/mavros_extras.pc
-Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/mavros_extras/servo_state_publisher
-Symlinking /home/karthikdharmarajan/catkin_ws/devel/lib/mavros_extras/visualization
->>>>>>> origin/main

@@ -1,5 +1,4 @@
 Not searching for unused variables given on the command line.
-<<<<<<< HEAD
 [36m--[0m The C compiler identification is GNU 7.5.0
 [36m--[0m The CXX compiler identification is GNU 7.5.0
 [36m--[0m Check for working C compiler: /usr/lib/ccache/cc
@@ -59,12 +58,3 @@ Not searching for unused variables given on the command line.
 [36m--[0m Configuring incomplete, errors occurred!
 See also "/home/karthikdharmarajan/Documents/ISAACS_Drone/build/test/CMakeFiles/CMakeOutput.log".
 See also "/home/karthikdharmarajan/Documents/ISAACS_Drone/build/test/CMakeFiles/CMakeError.log".
-=======
-[31m[1mCMake Error[0m at /home/karthikdharmarajan/catkin_ws/src/test/CMakeLists.txt:69:
-  Parse error.  Expected "(", got newline with text "
-
-  ".
-
-
-[36m--[0m Configuring incomplete, errors occurred!
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
   Could not find a package configuration file provided by "mavros" with any
   of the following names:
@@ -12,11 +11,5 @@
   installed.
 [36mCall Stack (most recent call first):[0m
   CMakeLists.txt:10 (find_package)
-=======
-[31m[1mCMake Error[0m at /home/karthikdharmarajan/catkin_ws/src/test/CMakeLists.txt:69:
-  Parse error.  Expected "(", got newline with text "
-
-  ".
->>>>>>> origin/main
 
 

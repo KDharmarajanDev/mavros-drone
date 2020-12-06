@@ -177,7 +177,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(test_EXPORTED_TARGETS "")
+set(test_EXPORTED_TARGETS "test_generate_messages_cpp;test_generate_messages_eus;test_generate_messages_lisp;test_generate_messages_nodejs;test_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${test_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -214,7 +214,7 @@ foreach(depend ${depends})
   list(APPEND test_EXPORTED_TARGETS ${${test_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "test-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${test_DIR}/${extra})

@@ -1,6 +1,1 @@
-<<<<<<< HEAD
-/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/./cmake.lock 30
-/home/karthikdharmarajan/Documents/Power_Line_Inspection/devel/./cmake.lock 123
-=======
-/home/karthikdharmarajan/catkin_ws/devel/./cmake.lock 25
->>>>>>> origin/main
+/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/./cmake.lock 16

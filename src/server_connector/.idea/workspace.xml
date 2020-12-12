@@ -46,7 +46,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e7ba300-e277-4684-baa0-f3a2f93d3b35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connect_to_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/connect_to_server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607752720428</updated>
       <workItem from="1607752722924" duration="52000" />
-      <workItem from="1607752777022" duration="4589000" />
+      <workItem from="1607752777022" duration="5456000" />
     </task>
     <servers />
   </component>

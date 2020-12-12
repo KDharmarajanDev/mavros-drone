@@ -1,3 +1,4 @@
 devel/*
 build/*
 .catkin_tools/*
+src/server_connector/cmake-build-debug/*

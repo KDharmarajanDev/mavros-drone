@@ -1,9 +1,0 @@
-/home/karthikdharmarajan/Documents/ISAACS_Drone/src/test/src/offb_node.cpp:21:20: error: redefinition of ‘mavros_msgs::State current_state’
- mavros_msgs::State current_state;
-                    ^~~~~~~~~~~~~
-/home/karthikdharmarajan/Documents/ISAACS_Drone/src/test/src/offb_node.cpp:17:20: note: ‘mavros_msgs::State current_state’ previously declared here
- mavros_msgs::State current_state;
-                    ^~~~~~~~~~~~~
-make[2]: *** [CMakeFiles/offb_node.dir/src/offb_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/offb_node.dir/all] Error 2
-make: *** [all] Error 2

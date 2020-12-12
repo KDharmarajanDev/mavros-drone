@@ -1,7 +1,0 @@
-mavros/test_mavros
-/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/cmake.lock /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/./cmake.lock
-/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig-version.cmake /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
-/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig.cmake /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
-/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/lib/libmavros_sitl_test.so /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/libmavros_sitl_test.so
-/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/lib/pkgconfig/test_mavros.pc /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/pkgconfig/test_mavros.pc
-/home/karthikdharmarajan/Documents/ISAACS_Drone/devel/.private/test_mavros/lib/test_mavros/sitl_test_node /home/karthikdharmarajan/Documents/ISAACS_Drone/devel/lib/test_mavros/sitl_test_node

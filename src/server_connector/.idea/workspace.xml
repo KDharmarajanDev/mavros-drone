@@ -27,16 +27,16 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="server_connector" targetName="clean_test_results" />
+      <config projectName="server_connector" targetName="download_extra_data" />
       <config projectName="server_connector" targetName="gtest_main" />
       <config projectName="server_connector" targetName="_catkin_empty_exported_target" />
-      <config projectName="server_connector" targetName="doxygen" />
       <config projectName="server_connector" targetName="gtest" />
-      <config projectName="server_connector" targetName="tests" />
-      <config projectName="server_connector" targetName="download_extra_data" />
-      <config projectName="server_connector" targetName="gmock" />
-      <config projectName="server_connector" targetName="gmock_main" />
       <config projectName="server_connector" targetName="run_tests" />
+      <config projectName="server_connector" targetName="gmock" />
+      <config projectName="server_connector" targetName="doxygen" />
+      <config projectName="server_connector" targetName="tests" />
+      <config projectName="server_connector" targetName="gmock_main" />
+      <config projectName="server_connector" targetName="clean_test_results" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -46,8 +46,311 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e7ba300-e277-4684-baa0-f3a2f93d3b35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/connect_to_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavros" beforeDir="false" afterPath="$PROJECT_DIR$/../mavros" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/CATKIN_IGNORE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/build.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/devel_collisions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/libmavconn/devel_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/libmavconn/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/mavlink/install_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/mavlink/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/mavros/devel_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/mavros/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/mavros_extras/devel_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/mavros_extras/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/mavros_msgs/devel_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/mavros_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/test/devel_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/test/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/test_mavros/devel_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.catkin_tools/profiles/default/packages/test_mavros/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.cache-manifest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.cmake.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.cmake.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.ctr-nuke.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.ctr-nuke.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.loadenv.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.make.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.mkdir.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.symlink.000.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/catkin_tools_prebuild/build.symlink.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.cache-manifest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.check.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.cmake.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.cmake.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.ctr-nuke.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.ctr-nuke.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.loadenv.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.make.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.mkdir.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.symlink.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/libmavconn/build.symlink.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.cache-manifest.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.cache-manifest.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.cache-manifest.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.cache-manifest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.check.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.check.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.check.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.check.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.cmake.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.cmake.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.envgen.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.envgen.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.envgen.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.envgen.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.envgen.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.envgen.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.envgen.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.install.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.install.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.install.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.install.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.install.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.install.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.install.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.loadenv.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.loadenv.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.loadenv.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.loadenv.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.make.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.make.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.make.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.make.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.006.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.007.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.009.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.010.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.011.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.mkdir.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.register.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.register.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.register.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.register.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.register.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.register.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.register.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.setupgen.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.setupgen.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.setupgen.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.setupgen.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.setupgen.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.setupgen.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavlink/build.setupgen.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.cache-manifest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.check.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.cmake.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.cmake.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.ctr-nuke.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.ctr-nuke.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.loadenv.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.make.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.mkdir.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros/build.symlink.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.cache-manifest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.check.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.cmake.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.cmake.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.ctr-nuke.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.ctr-nuke.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.loadenv.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.make.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.mkdir.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_extras/build.symlink.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.cache-manifest.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.cache-manifest.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.cache-manifest.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.cache-manifest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.check.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.check.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.check.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.check.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.cmake.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.cmake.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.ctr-nuke.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.ctr-nuke.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.loadenv.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.loadenv.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.loadenv.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.loadenv.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.make.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.make.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.make.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.make.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.006.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.007.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.009.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.010.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.011.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.mkdir.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.symlink.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.symlink.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.symlink.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.symlink.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/mavros_msgs/build.symlink.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cache-manifest.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cache-manifest.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cache-manifest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.check.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.check.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cmake.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cmake.000.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cmake.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cmake.001.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.cmake.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.ctr-nuke.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.ctr-nuke.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.ctr-nuke.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.loadenv.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.loadenv.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.loadenv.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.make.000.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.make.001.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.make.002.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.make.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.make.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.006.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.007.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.009.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.mkdir.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test/build.symlink.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.cache-manifest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.check.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.cmake.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.cmake.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.ctr-nuke.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.ctr-nuke.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.loadenv.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.make.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.mkdir.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/test_mavros/build.symlink.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/server_connector.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connect_to_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/connect_to_server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +387,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="CMake Application._catkin_empty_exported_target">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_catkin_empty_exported_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="server_connector" TARGET_NAME="_catkin_empty_exported_target" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -161,7 +469,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607752720428</updated>
       <workItem from="1607752722924" duration="52000" />
-      <workItem from="1607752777022" duration="1440000" />
+      <workItem from="1607752777022" duration="4171000" />
     </task>
     <servers />
   </component>
@@ -201,9 +509,9 @@
       <screen x="67" y="27" width="1853" height="991" />
     </state>
     <state x="652" y="184" width="1016" height="738" key="SettingsEditor/67.27.1853.991@67.27.1853.991" timestamp="1607753343605" />
-    <state x="721" y="341" width="540" height="345" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607752998326">
+    <state x="721" y="333" width="540" height="345" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607758001449">
       <screen x="67" y="27" width="1853" height="991" />
     </state>
-    <state x="721" y="341" width="540" height="345" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.991@67.27.1853.991" timestamp="1607752998326" />
+    <state x="721" y="333" width="540" height="345" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.991@67.27.1853.991" timestamp="1607758001449" />
   </component>
 </project>

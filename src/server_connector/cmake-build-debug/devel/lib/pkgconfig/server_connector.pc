@@ -1,0 +1,8 @@
+prefix=/home/karthikdharmarajan/Documents/ISAACS_Drone/src/server_connector/cmake-build-debug/devel
+
+Name: server_connector
+Description: Description of server_connector
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
